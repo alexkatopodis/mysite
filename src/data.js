@@ -4,6 +4,7 @@ export const featuredPortfolio = [
       title: "E-Commerce",
       img:
         "./assets/aenerd.png",
+        url: 'https://www.aenerd.com.br'
         
     },
     {
@@ -11,30 +12,35 @@ export const featuredPortfolio = [
       title: "Streamer App",
       img:
       "./assets/disney.png",
+      url: 'https://www.disney.alexkatopodis.com'
     },
     {
       id: 3,
       title: "Hub Movies",
       img:
       "./assets/hubaenerd.png",
+      url: 'https://www.alexkatopodis.com/hub-aenerd'
     },
     {
       id: 4,
       title: "Sale App",
       img:
       "./assets/instacarros.png",
+      url: 'https://www.alexkatopodis.com/insta-carros'
     },
     {
       id: 5,
       title: "Landing Page",
       img:
       "./assets/mrcat.png",
+      url: 'https://www.alexkatopodis.com/mr-cat'
     },
     {
       id: 6,
       title: "Netflix Page",
       img:
       "./assets/netflix.png",
+      url: 'https://www.alexkatopodis.com/meu-netflix'
     },
 
     

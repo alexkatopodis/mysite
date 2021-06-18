@@ -58,7 +58,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>CODES</h1>
+      <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
           <PortfolioList
@@ -71,12 +71,17 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img
+          <div className="item">         
+            <a target="_blank"
+              href={d.url} 
+               onclick="this.href = this.href.replace('[sub]',window.location)">
+    
+            <img 
               src={d.img}
               alt=""              
             />
             <h3>{d.title}</h3>
+          </a>
             
           </div>
         ))}
